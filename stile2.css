@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+  
+}
+
+@font-face {
+    font-family: romana;
+    src: url(fontes/Type\ Machine.ttf);
+}
+h1 {
+    color: black;
+    font-family: romana;
+    font-size: 20pt;
+    text-align: center; /* Adiciona a propriedade text-align com o valor center */
+    display: flex; /* Adiciona a propriedade display com o valor flex */
+    justify-content: center; /* Adiciona a propriedade justify-content com o valor center */
+    align-items: center; /* Adiciona a propriedade align-items com o valor center */
+  }
+  
+
+#Projetos{
+    background-color: rgba(127, 255, 212, 0.712);
+    color: black;
+    font-size: 25px;
+    font-family: romana;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+#projetospt{
+    background-color: rgba(127, 255, 212, 0.712);
+    color: black;
+    font-family: romana;
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+.caixinhas{
+    height:50%;
+    width: 300px;
+    border: 1px solid white;
+}
+.caixinhas2{
+    height:50%;
+    width: 300px;
+    border: 1px solid white;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+
+#Projetos{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+}
+#projetospt{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+}
+
+
+
+
+
+
+
+
+
+
+}
